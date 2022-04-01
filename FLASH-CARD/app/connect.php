@@ -1,9 +1,9 @@
 <?php
 
 function connect(){
-    $user = "tb-230072";
-    $pass = "LnLBsdMTF6";
-    $dsn = 'mysql:dbname=tb230072db;host=localhost;charset=utf8mb4';
+    $user = "";
+    $pass = "";
+    $dsn = '';
     try{
       $pdo = new PDO($dsn, $user, $pass,[
       PDO::ATTR_ERRMODE =>PDO::ERRMODE_EXCEPTION,
